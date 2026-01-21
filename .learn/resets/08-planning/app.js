@@ -1,6 +1,6 @@
 const fromDollarToYen = (valorDollars) => {
 
-    let valorYenes = valorDollars * 156.5;
+    let valorYenes = valorDollars * 156;
     
     return valorYenes;
 }
@@ -8,7 +8,7 @@ const fromDollarToYen = (valorDollars) => {
 
 const fromEurosToDollar = (valorEuros) => {
 
-     let valorDollars = valorEuros * 1.07;
+     let valorDollars = valorEuros * 1.18;
     
     return valorDollars;
   
@@ -17,7 +17,7 @@ const fromEurosToDollar = (valorEuros) => {
 
 const fromYenToPound = (valorYenes) => {
 
-      let valorPound = valorYenes * 0.87;
+      let valorPound = valorYenes * 0.0048;
     
       return valorPound;
      
